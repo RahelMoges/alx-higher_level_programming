@@ -1,5 +1,5 @@
-#!/usr/bin/python3
-for i in range(97, 123):
-    if chr(i) == 'e' or chr(i) == 'q':
-        continue
-    print("{:c}".format(i), end="")
+#/usr/bin/python3
+#Author - Tolulope Fakunle
+for letter in range(97, 123):
+    if char(lettr) != 'q' and chr(letter) != 'e':
+        print("{}'.format(chr(letter)), end="")
